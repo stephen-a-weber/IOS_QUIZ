@@ -75,6 +75,7 @@ class TableVC: UITableViewController {
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         holdCell =  []
+        tableView.allowsSelection = true
         let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath)
         cell.backgroundColor = .lightGray
         cell.textLabel?.text = quiz[whichQuestion].answers?[indexPath.row]
@@ -110,6 +111,7 @@ class TableVC: UITableViewController {
         tableView.deselectRow(at: indexPath, animated:true)
         if indexPath.row == quiz[whichQuestion].correct  {
             tableView.cellForRow(at: indexPath)?.backgroundColor = .green
+            tableView.allowsSelection = false
             self.whichQuestion += 1
             if self.whichQuestion == 5 {
                 self.whichQuestion = 0
@@ -118,6 +120,7 @@ class TableVC: UITableViewController {
     
         else {
             tableView.cellForRow(at:indexPath)?.backgroundColor = .red
+            tableView.allowsSelection = false
           //  tableView.cellForRow(at: tableView.indexPathsForVisibleRows?[1]?).backGroundColor = .green
           // how to get an indexPath given known subscript or was indexPath.row
             //NextQuestionButton.hidden = false
