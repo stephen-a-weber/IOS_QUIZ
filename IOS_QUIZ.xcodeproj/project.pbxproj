@@ -17,10 +17,12 @@
 		D037C20727DD1A870031125A /* CheckBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = D037C20627DD1A870031125A /* CheckBox.swift */; };
 		D037C20A27DD1AE00031125A /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D037C20927DD1AE00031125A /* LoginVC.swift */; };
 		D037C21527DD25250031125A /* CreateAccountVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D037C21427DD25250031125A /* CreateAccountVC.swift */; };
-		D037C21727DD282A0031125A /* KeychainWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = D037C21627DD282A0031125A /* KeychainWrapper.swift */; };
-		D037C21927DD283B0031125A /* KeychainItemAccessibility.swift in Sources */ = {isa = PBXBuildFile; fileRef = D037C21827DD283B0031125A /* KeychainItemAccessibility.swift */; };
 		D037C24227DD56800031125A /* CollectionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D037C24127DD56800031125A /* CollectionVC.swift */; };
 		D037C24427DD57220031125A /* ViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D037C24327DD57220031125A /* ViewCell.swift */; };
+		D047B69A27E007EE00FE02DA /* KeychainItemAccessibility.swift in Sources */ = {isa = PBXBuildFile; fileRef = D047B69927E007EE00FE02DA /* KeychainItemAccessibility.swift */; };
+		D047B69C27E007FB00FE02DA /* KeychainWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = D047B69B27E007FB00FE02DA /* KeychainWrapper.swift */; };
+		D047B6B827E0DCB800FE02DA /* AdminDataBaseVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D047B6B727E0DCB800FE02DA /* AdminDataBaseVC.swift */; };
+		D047B6BA27E0DDE100FE02DA /* QuizOneDB.swift in Sources */ = {isa = PBXBuildFile; fileRef = D047B6B927E0DDE100FE02DA /* QuizOneDB.swift */; };
 		D0853EC027DDA20500EEB77B /* PayVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0853EBF27DDA20500EEB77B /* PayVC.swift */; };
 		D0853EC227DDA7D200EEB77B /* FeedbackVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0853EC127DDA7D200EEB77B /* FeedbackVC.swift */; };
 		D0853EE727DE42FB00EEB77B /* StudyQuiz.plist in Resources */ = {isa = PBXBuildFile; fileRef = D0853EE627DE42FB00EEB77B /* StudyQuiz.plist */; };
@@ -39,11 +41,13 @@
 		D037C20627DD1A870031125A /* CheckBox.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CheckBox.swift; sourceTree = "<group>"; };
 		D037C20927DD1AE00031125A /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
 		D037C21427DD25250031125A /* CreateAccountVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAccountVC.swift; sourceTree = "<group>"; };
-		D037C21627DD282A0031125A /* KeychainWrapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = KeychainWrapper.swift; path = ../../../../../Documents/GitHub/Classic/project28/Project28/KeychainWrapper.swift; sourceTree = "<group>"; };
-		D037C21827DD283B0031125A /* KeychainItemAccessibility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = KeychainItemAccessibility.swift; path = ../../../../../Documents/GitHub/Classic/project28/Project28/KeychainItemAccessibility.swift; sourceTree = "<group>"; };
 		D037C21A27DD31A00031125A /* IOS_QUIZ.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = IOS_QUIZ.entitlements; sourceTree = "<group>"; };
 		D037C24127DD56800031125A /* CollectionVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionVC.swift; sourceTree = "<group>"; };
 		D037C24327DD57220031125A /* ViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewCell.swift; sourceTree = "<group>"; };
+		D047B69927E007EE00FE02DA /* KeychainItemAccessibility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeychainItemAccessibility.swift; sourceTree = "<group>"; };
+		D047B69B27E007FB00FE02DA /* KeychainWrapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeychainWrapper.swift; sourceTree = "<group>"; };
+		D047B6B727E0DCB800FE02DA /* AdminDataBaseVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdminDataBaseVC.swift; sourceTree = "<group>"; };
+		D047B6B927E0DDE100FE02DA /* QuizOneDB.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizOneDB.swift; sourceTree = "<group>"; };
 		D0853EBF27DDA20500EEB77B /* PayVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PayVC.swift; sourceTree = "<group>"; };
 		D0853EC127DDA7D200EEB77B /* FeedbackVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedbackVC.swift; sourceTree = "<group>"; };
 		D0853EE627DE42FB00EEB77B /* StudyQuiz.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = StudyQuiz.plist; sourceTree = "<group>"; };
@@ -84,6 +88,8 @@
 				D037C1CC27DC22720031125A /* SceneDelegate.swift */,
 				D037C1CE27DC22720031125A /* ViewController.swift */,
 				D037C1D027DC22720031125A /* Main.storyboard */,
+				D047B6B727E0DCB800FE02DA /* AdminDataBaseVC.swift */,
+				D047B6B927E0DDE100FE02DA /* QuizOneDB.swift */,
 				D0853EE627DE42FB00EEB77B /* StudyQuiz.plist */,
 				D0853EC127DDA7D200EEB77B /* FeedbackVC.swift */,
 				D0853EBF27DDA20500EEB77B /* PayVC.swift */,
@@ -111,9 +117,9 @@
 			children = (
 				D037C20627DD1A870031125A /* CheckBox.swift */,
 				D037C20927DD1AE00031125A /* LoginVC.swift */,
+				D047B69927E007EE00FE02DA /* KeychainItemAccessibility.swift */,
+				D047B69B27E007FB00FE02DA /* KeychainWrapper.swift */,
 				D037C21427DD25250031125A /* CreateAccountVC.swift */,
-				D037C21827DD283B0031125A /* KeychainItemAccessibility.swift */,
-				D037C21627DD282A0031125A /* KeychainWrapper.swift */,
 			);
 			path = Login;
 			sourceTree = "<group>";
@@ -195,13 +201,15 @@
 				D037C24427DD57220031125A /* ViewCell.swift in Sources */,
 				D037C20A27DD1AE00031125A /* LoginVC.swift in Sources */,
 				D0853EC227DDA7D200EEB77B /* FeedbackVC.swift in Sources */,
+				D047B69A27E007EE00FE02DA /* KeychainItemAccessibility.swift in Sources */,
 				D037C1CB27DC22720031125A /* AppDelegate.swift in Sources */,
 				D0853EC027DDA20500EEB77B /* PayVC.swift in Sources */,
 				D037C24227DD56800031125A /* CollectionVC.swift in Sources */,
 				D037C21527DD25250031125A /* CreateAccountVC.swift in Sources */,
-				D037C21927DD283B0031125A /* KeychainItemAccessibility.swift in Sources */,
-				D037C21727DD282A0031125A /* KeychainWrapper.swift in Sources */,
+				D047B6BA27E0DDE100FE02DA /* QuizOneDB.swift in Sources */,
 				D037C1CD27DC22720031125A /* SceneDelegate.swift in Sources */,
+				D047B6B827E0DCB800FE02DA /* AdminDataBaseVC.swift in Sources */,
+				D047B69C27E007FB00FE02DA /* KeychainWrapper.swift in Sources */,
 				D037C20727DD1A870031125A /* CheckBox.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
