@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		90E8000027DFFDE100871360 /* KeychainItemAccessibility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90E8FFFF27DFFDE100871360 /* KeychainItemAccessibility.swift */; };
+		90E8000227DFFDF900871360 /* KeychainWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90E8000127DFFDF900871360 /* KeychainWrapper.swift */; };
+		90E8000927E0E69500871360 /* WelcomeCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90E8000827E0E69500871360 /* WelcomeCollectionViewCell.swift */; };
+		90E8000B27E0F53900871360 /* WelcomeCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90E8000A27E0F53900871360 /* WelcomeCollectionViewController.swift */; };
 		D037C1CB27DC22720031125A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D037C1CA27DC22720031125A /* AppDelegate.swift */; };
 		D037C1CD27DC22720031125A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D037C1CC27DC22720031125A /* SceneDelegate.swift */; };
 		D037C1CF27DC22720031125A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D037C1CE27DC22720031125A /* ViewController.swift */; };
@@ -29,6 +33,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		90E8000127DFFDF900871360 /* KeychainWrapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeychainWrapper.swift; sourceTree = "<group>"; };
+		90E8000827E0E69500871360 /* WelcomeCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeCollectionViewCell.swift; sourceTree = "<group>"; };
+		90E8000A27E0F53900871360 /* WelcomeCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeCollectionViewController.swift; sourceTree = "<group>"; };
+		90E8FFFF27DFFDE100871360 /* KeychainItemAccessibility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeychainItemAccessibility.swift; sourceTree = "<group>"; };
 		D037C1C727DC22720031125A /* IOS_QUIZ.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IOS_QUIZ.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D037C1CA27DC22720031125A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D037C1CC27DC22720031125A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -64,6 +72,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		90E8000527E0E21700871360 /* WelcomePage */ = {
+			isa = PBXGroup;
+			children = (
+				90E8000827E0E69500871360 /* WelcomeCollectionViewCell.swift */,
+				90E8000A27E0F53900871360 /* WelcomeCollectionViewController.swift */,
+			);
+			path = WelcomePage;
+			sourceTree = "<group>";
+		};
 		D037C1BE27DC22720031125A = {
 			isa = PBXGroup;
 			children = (
@@ -88,8 +105,12 @@
 				D037C1CC27DC22720031125A /* SceneDelegate.swift */,
 				D037C1CE27DC22720031125A /* ViewController.swift */,
 				D037C1D027DC22720031125A /* Main.storyboard */,
+
+				90E8000527E0E21700871360 /* WelcomePage */,
+
 				D047B6B727E0DCB800FE02DA /* AdminDataBaseVC.swift */,
 				D047B6B927E0DDE100FE02DA /* QuizOneDB.swift */,
+
 				D0853EE627DE42FB00EEB77B /* StudyQuiz.plist */,
 				D0853EC127DDA7D200EEB77B /* FeedbackVC.swift */,
 				D0853EBF27DDA20500EEB77B /* PayVC.swift */,
@@ -115,6 +136,8 @@
 		D037C20D27DD1AFE0031125A /* Login */ = {
 			isa = PBXGroup;
 			children = (
+				90E8000127DFFDF900871360 /* KeychainWrapper.swift */,
+				90E8FFFF27DFFDE100871360 /* KeychainItemAccessibility.swift */,
 				D037C20627DD1A870031125A /* CheckBox.swift */,
 				D037C20927DD1AE00031125A /* LoginVC.swift */,
 				D047B69927E007EE00FE02DA /* KeychainItemAccessibility.swift */,
@@ -197,19 +220,26 @@
 			buildActionMask = 2147483647;
 			files = (
 				D037C1CF27DC22720031125A /* ViewController.swift in Sources */,
+				90E8000B27E0F53900871360 /* WelcomeCollectionViewController.swift in Sources */,
 				D037C1DF27DC229A0031125A /* TableVC.swift in Sources */,
 				D037C24427DD57220031125A /* ViewCell.swift in Sources */,
 				D037C20A27DD1AE00031125A /* LoginVC.swift in Sources */,
 				D0853EC227DDA7D200EEB77B /* FeedbackVC.swift in Sources */,
+
 				D047B69A27E007EE00FE02DA /* KeychainItemAccessibility.swift in Sources */,
+
 				D037C1CB27DC22720031125A /* AppDelegate.swift in Sources */,
 				D0853EC027DDA20500EEB77B /* PayVC.swift in Sources */,
 				D037C24227DD56800031125A /* CollectionVC.swift in Sources */,
 				D037C21527DD25250031125A /* CreateAccountVC.swift in Sources */,
+
+				90E8000927E0E69500871360 /* WelcomeCollectionViewCell.swift in Sources */,
+
 				D047B6BA27E0DDE100FE02DA /* QuizOneDB.swift in Sources */,
 				D037C1CD27DC22720031125A /* SceneDelegate.swift in Sources */,
 				D047B6B827E0DCB800FE02DA /* AdminDataBaseVC.swift in Sources */,
 				D047B69C27E007FB00FE02DA /* KeychainWrapper.swift in Sources */,
+
 				D037C20727DD1A870031125A /* CheckBox.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
