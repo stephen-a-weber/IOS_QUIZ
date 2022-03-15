@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		90E8000027DFFDE100871360 /* KeychainItemAccessibility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90E8FFFF27DFFDE100871360 /* KeychainItemAccessibility.swift */; };
+		90E8000227DFFDF900871360 /* KeychainWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90E8000127DFFDF900871360 /* KeychainWrapper.swift */; };
+		90E8000427E0E0B000871360 /* QuizesCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90E8000327E0E0B000871360 /* QuizesCollectionView.swift */; };
 		D037C1CB27DC22720031125A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D037C1CA27DC22720031125A /* AppDelegate.swift */; };
 		D037C1CD27DC22720031125A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D037C1CC27DC22720031125A /* SceneDelegate.swift */; };
 		D037C1CF27DC22720031125A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D037C1CE27DC22720031125A /* ViewController.swift */; };
@@ -17,8 +20,6 @@
 		D037C20727DD1A870031125A /* CheckBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = D037C20627DD1A870031125A /* CheckBox.swift */; };
 		D037C20A27DD1AE00031125A /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D037C20927DD1AE00031125A /* LoginVC.swift */; };
 		D037C21527DD25250031125A /* CreateAccountVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D037C21427DD25250031125A /* CreateAccountVC.swift */; };
-		D037C21727DD282A0031125A /* KeychainWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = D037C21627DD282A0031125A /* KeychainWrapper.swift */; };
-		D037C21927DD283B0031125A /* KeychainItemAccessibility.swift in Sources */ = {isa = PBXBuildFile; fileRef = D037C21827DD283B0031125A /* KeychainItemAccessibility.swift */; };
 		D037C24227DD56800031125A /* CollectionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D037C24127DD56800031125A /* CollectionVC.swift */; };
 		D037C24427DD57220031125A /* ViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D037C24327DD57220031125A /* ViewCell.swift */; };
 		D0853EC027DDA20500EEB77B /* PayVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0853EBF27DDA20500EEB77B /* PayVC.swift */; };
@@ -27,6 +28,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		90E8000127DFFDF900871360 /* KeychainWrapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeychainWrapper.swift; sourceTree = "<group>"; };
+		90E8000327E0E0B000871360 /* QuizesCollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizesCollectionView.swift; sourceTree = "<group>"; };
+		90E8FFFF27DFFDE100871360 /* KeychainItemAccessibility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeychainItemAccessibility.swift; sourceTree = "<group>"; };
 		D037C1C727DC22720031125A /* IOS_QUIZ.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IOS_QUIZ.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D037C1CA27DC22720031125A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D037C1CC27DC22720031125A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -39,8 +43,6 @@
 		D037C20627DD1A870031125A /* CheckBox.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CheckBox.swift; sourceTree = "<group>"; };
 		D037C20927DD1AE00031125A /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
 		D037C21427DD25250031125A /* CreateAccountVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAccountVC.swift; sourceTree = "<group>"; };
-		D037C21627DD282A0031125A /* KeychainWrapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = KeychainWrapper.swift; path = ../../../../../Documents/GitHub/Classic/project28/Project28/KeychainWrapper.swift; sourceTree = "<group>"; };
-		D037C21827DD283B0031125A /* KeychainItemAccessibility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = KeychainItemAccessibility.swift; path = ../../../../../Documents/GitHub/Classic/project28/Project28/KeychainItemAccessibility.swift; sourceTree = "<group>"; };
 		D037C21A27DD31A00031125A /* IOS_QUIZ.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = IOS_QUIZ.entitlements; sourceTree = "<group>"; };
 		D037C24127DD56800031125A /* CollectionVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionVC.swift; sourceTree = "<group>"; };
 		D037C24327DD57220031125A /* ViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewCell.swift; sourceTree = "<group>"; };
@@ -60,6 +62,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		90E8000527E0E21700871360 /* WelcomePage */ = {
+			isa = PBXGroup;
+			children = (
+				90E8000327E0E0B000871360 /* QuizesCollectionView.swift */,
+			);
+			path = WelcomePage;
+			sourceTree = "<group>";
+		};
 		D037C1BE27DC22720031125A = {
 			isa = PBXGroup;
 			children = (
@@ -84,6 +94,7 @@
 				D037C1CC27DC22720031125A /* SceneDelegate.swift */,
 				D037C1CE27DC22720031125A /* ViewController.swift */,
 				D037C1D027DC22720031125A /* Main.storyboard */,
+				90E8000527E0E21700871360 /* WelcomePage */,
 				D0853EE627DE42FB00EEB77B /* StudyQuiz.plist */,
 				D0853EC127DDA7D200EEB77B /* FeedbackVC.swift */,
 				D0853EBF27DDA20500EEB77B /* PayVC.swift */,
@@ -109,11 +120,11 @@
 		D037C20D27DD1AFE0031125A /* Login */ = {
 			isa = PBXGroup;
 			children = (
+				90E8000127DFFDF900871360 /* KeychainWrapper.swift */,
+				90E8FFFF27DFFDE100871360 /* KeychainItemAccessibility.swift */,
 				D037C20627DD1A870031125A /* CheckBox.swift */,
 				D037C20927DD1AE00031125A /* LoginVC.swift */,
 				D037C21427DD25250031125A /* CreateAccountVC.swift */,
-				D037C21827DD283B0031125A /* KeychainItemAccessibility.swift */,
-				D037C21627DD282A0031125A /* KeychainWrapper.swift */,
 			);
 			path = Login;
 			sourceTree = "<group>";
@@ -195,13 +206,14 @@
 				D037C24427DD57220031125A /* ViewCell.swift in Sources */,
 				D037C20A27DD1AE00031125A /* LoginVC.swift in Sources */,
 				D0853EC227DDA7D200EEB77B /* FeedbackVC.swift in Sources */,
+				90E8000027DFFDE100871360 /* KeychainItemAccessibility.swift in Sources */,
 				D037C1CB27DC22720031125A /* AppDelegate.swift in Sources */,
 				D0853EC027DDA20500EEB77B /* PayVC.swift in Sources */,
 				D037C24227DD56800031125A /* CollectionVC.swift in Sources */,
 				D037C21527DD25250031125A /* CreateAccountVC.swift in Sources */,
-				D037C21927DD283B0031125A /* KeychainItemAccessibility.swift in Sources */,
-				D037C21727DD282A0031125A /* KeychainWrapper.swift in Sources */,
 				D037C1CD27DC22720031125A /* SceneDelegate.swift in Sources */,
+				90E8000427E0E0B000871360 /* QuizesCollectionView.swift in Sources */,
+				90E8000227DFFDF900871360 /* KeychainWrapper.swift in Sources */,
 				D037C20727DD1A870031125A /* CheckBox.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
