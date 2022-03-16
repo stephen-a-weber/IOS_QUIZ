@@ -7,8 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		90E8000027DFFDE100871360 /* KeychainItemAccessibility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90E8FFFF27DFFDE100871360 /* KeychainItemAccessibility.swift */; };
-		90E8000227DFFDF900871360 /* KeychainWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90E8000127DFFDF900871360 /* KeychainWrapper.swift */; };
 		90E8000927E0E69500871360 /* WelcomeCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90E8000827E0E69500871360 /* WelcomeCollectionViewCell.swift */; };
 		90E8000B27E0F53900871360 /* WelcomeCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90E8000A27E0F53900871360 /* WelcomeCollectionViewController.swift */; };
 		D037C1CB27DC22720031125A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D037C1CA27DC22720031125A /* AppDelegate.swift */; };
@@ -27,9 +25,12 @@
 		D047B69C27E007FB00FE02DA /* KeychainWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = D047B69B27E007FB00FE02DA /* KeychainWrapper.swift */; };
 		D047B6B827E0DCB800FE02DA /* AdminDataBaseVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D047B6B727E0DCB800FE02DA /* AdminDataBaseVC.swift */; };
 		D047B6BA27E0DDE100FE02DA /* QuizOneDB.swift in Sources */ = {isa = PBXBuildFile; fileRef = D047B6B927E0DDE100FE02DA /* QuizOneDB.swift */; };
+		D047B6FF27E180A300FE02DA /* QuizOneTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D047B6FE27E180A300FE02DA /* QuizOneTVC.swift */; };
+		D047B72227E195A700FE02DA /* IOS.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = D047B6FD27E13B9500FE02DA /* IOS.sqlite */; };
 		D0853EC027DDA20500EEB77B /* PayVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0853EBF27DDA20500EEB77B /* PayVC.swift */; };
 		D0853EC227DDA7D200EEB77B /* FeedbackVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0853EC127DDA7D200EEB77B /* FeedbackVC.swift */; };
 		D0853EE727DE42FB00EEB77B /* StudyQuiz.plist in Resources */ = {isa = PBXBuildFile; fileRef = D0853EE627DE42FB00EEB77B /* StudyQuiz.plist */; };
+		D0D71C9A27E2593D00BF99BE /* QuizTwoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0D71C9927E2593D00BF99BE /* QuizTwoVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -56,9 +57,12 @@
 		D047B69B27E007FB00FE02DA /* KeychainWrapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeychainWrapper.swift; sourceTree = "<group>"; };
 		D047B6B727E0DCB800FE02DA /* AdminDataBaseVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdminDataBaseVC.swift; sourceTree = "<group>"; };
 		D047B6B927E0DDE100FE02DA /* QuizOneDB.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizOneDB.swift; sourceTree = "<group>"; };
+		D047B6FD27E13B9500FE02DA /* IOS.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = IOS.sqlite; sourceTree = "<group>"; };
+		D047B6FE27E180A300FE02DA /* QuizOneTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizOneTVC.swift; sourceTree = "<group>"; };
 		D0853EBF27DDA20500EEB77B /* PayVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PayVC.swift; sourceTree = "<group>"; };
 		D0853EC127DDA7D200EEB77B /* FeedbackVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedbackVC.swift; sourceTree = "<group>"; };
 		D0853EE627DE42FB00EEB77B /* StudyQuiz.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = StudyQuiz.plist; sourceTree = "<group>"; };
+		D0D71C9927E2593D00BF99BE /* QuizTwoVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizTwoVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,14 +107,10 @@
 				D037C21A27DD31A00031125A /* IOS_QUIZ.entitlements */,
 				D037C1CA27DC22720031125A /* AppDelegate.swift */,
 				D037C1CC27DC22720031125A /* SceneDelegate.swift */,
+				D047B6FD27E13B9500FE02DA /* IOS.sqlite */,
 				D037C1CE27DC22720031125A /* ViewController.swift */,
 				D037C1D027DC22720031125A /* Main.storyboard */,
-
 				90E8000527E0E21700871360 /* WelcomePage */,
-
-				D047B6B727E0DCB800FE02DA /* AdminDataBaseVC.swift */,
-				D047B6B927E0DDE100FE02DA /* QuizOneDB.swift */,
-
 				D0853EE627DE42FB00EEB77B /* StudyQuiz.plist */,
 				D0853EC127DDA7D200EEB77B /* FeedbackVC.swift */,
 				D0853EBF27DDA20500EEB77B /* PayVC.swift */,
@@ -128,7 +128,11 @@
 		D037C20827DD1AA20031125A /* QUIZ Section */ = {
 			isa = PBXGroup;
 			children = (
+				D047B6B727E0DCB800FE02DA /* AdminDataBaseVC.swift */,
+				D047B6B927E0DDE100FE02DA /* QuizOneDB.swift */,
+				D047B6FE27E180A300FE02DA /* QuizOneTVC.swift */,
 				D037C1DE27DC229A0031125A /* TableVC.swift */,
+				D0D71C9927E2593D00BF99BE /* QuizTwoVC.swift */,
 			);
 			path = "QUIZ Section";
 			sourceTree = "<group>";
@@ -207,6 +211,7 @@
 			files = (
 				D037C1D727DC22730031125A /* LaunchScreen.storyboard in Resources */,
 				D037C1D427DC22730031125A /* Assets.xcassets in Resources */,
+				D047B72227E195A700FE02DA /* IOS.sqlite in Resources */,
 				D037C1D227DC22720031125A /* Main.storyboard in Resources */,
 				D0853EE727DE42FB00EEB77B /* StudyQuiz.plist in Resources */,
 			);
@@ -225,21 +230,18 @@
 				D037C24427DD57220031125A /* ViewCell.swift in Sources */,
 				D037C20A27DD1AE00031125A /* LoginVC.swift in Sources */,
 				D0853EC227DDA7D200EEB77B /* FeedbackVC.swift in Sources */,
-
 				D047B69A27E007EE00FE02DA /* KeychainItemAccessibility.swift in Sources */,
-
+				D047B6FF27E180A300FE02DA /* QuizOneTVC.swift in Sources */,
+				D0D71C9A27E2593D00BF99BE /* QuizTwoVC.swift in Sources */,
 				D037C1CB27DC22720031125A /* AppDelegate.swift in Sources */,
 				D0853EC027DDA20500EEB77B /* PayVC.swift in Sources */,
 				D037C24227DD56800031125A /* CollectionVC.swift in Sources */,
 				D037C21527DD25250031125A /* CreateAccountVC.swift in Sources */,
-
 				90E8000927E0E69500871360 /* WelcomeCollectionViewCell.swift in Sources */,
-
 				D047B6BA27E0DDE100FE02DA /* QuizOneDB.swift in Sources */,
 				D037C1CD27DC22720031125A /* SceneDelegate.swift in Sources */,
 				D047B6B827E0DCB800FE02DA /* AdminDataBaseVC.swift in Sources */,
 				D047B69C27E007FB00FE02DA /* KeychainWrapper.swift in Sources */,
-
 				D037C20727DD1A870031125A /* CheckBox.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -7,19 +7,21 @@
 
 import UIKit
 
-private let reuseIdentifier = "Cell"
+//private let reuseIdentifier = "Cell"
 
 class WelcomeCollectionViewController: UICollectionViewController {
     
     var imageData = ["swift", "java", "python"]
     
 
+    @IBOutlet var table: UIView!
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Uncomment the following line to preserve selection between presentations
         self.clearsSelectionOnViewWillAppear = false
 
+        
         // Register cell classes
 //        self.collectionView!.register(UICollectionViewCell.self, forCellWithReuseIdentifier: reuseIdentifier)
 
@@ -64,22 +66,22 @@ class WelcomeCollectionViewController: UICollectionViewController {
     }
 
     override func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
-        let welcell1 = collectionView.dequeueReusableCell(withReuseIdentifier: reuseIdentifier, for: indexPath) as! WelcomeCollectionViewCell
-        let welcell2 = collectionView.dequeueReusableCell(withReuseIdentifier: reuseIdentifier, for: indexPath) as! WelcomeCollectionViewCell
-        let welcell3 = collectionView.dequeueReusableCell(withReuseIdentifier: reuseIdentifier, for: indexPath) as! WelcomeCollectionViewCell
+        let welCell1 = collectionView.dequeueReusableCell(withReuseIdentifier: "welCell1", for: indexPath) as! WelcomeCollectionViewCell
+        let welCell2 = collectionView.dequeueReusableCell(withReuseIdentifier: "welCell2", for: indexPath) as! WelcomeCollectionViewCell
+        let welCell3 = collectionView.dequeueReusableCell(withReuseIdentifier: "welCell3", for: indexPath) as! WelcomeCollectionViewCell
     
         switch indexPath.section{
         case 0:
-            welcell1.swiftImg.image = UIImage(named: imageData[indexPath.row])
-            return welcell1
+            welCell1.swiftImg.image = UIImage(named: imageData[indexPath.row])
+            return welCell1
         case 1:
-            welcell2.javaImg.image = UIImage(named: imageData[indexPath.row])
-            return welcell2
+            welCell2.javaImg.image = UIImage(named: imageData[indexPath.row])
+            return welCell2
         case 3:
-            welcell3.pythonImg.image = UIImage(named: imageData[indexPath.row])
-            return welcell3
+            welCell3.pythonImg.image = UIImage(named: imageData[indexPath.row])
+            return welCell3
         default:
-            return welcell1
+            return welCell1
         }
     }
 
