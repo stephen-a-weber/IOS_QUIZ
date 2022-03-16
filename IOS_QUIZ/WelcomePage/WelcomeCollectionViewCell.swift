@@ -10,7 +10,6 @@ import UIKit
 class WelcomeCollectionViewCell: UICollectionViewCell {
 
     
-    @IBOutlet weak var swiftlb: UILabel!
     @IBOutlet weak var swiftImg: UIImageView!
     @IBOutlet weak var javaImg: UIImageView!
     @IBOutlet weak var pythonImg: UIImageView!
